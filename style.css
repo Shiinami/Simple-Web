@@ -1,0 +1,179 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(31, 31, 31, 0.3);
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #CBDCEB;
+    color: rgba(47, 156, 244, 1);
+    padding: 20px;
+    text-align: center;
+    display: inline;
+}
+
+nav {
+    background-color: rgba(47, 156, 244, 1);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#content {
+    flex: 5;
+}
+
+
+article {
+    margin-bottom: 20px;
+    border: 1px solid rgba(47, 156, 244, 1);
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #e7f3ff;
+}
+
+img {
+    width: auto;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #fafafa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(47, 156, 244, 1);
+   
+}
+
+
+footer {
+    background-color:rgba(47, 156, 244, 1);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #000000;
+  
+}
+
+p {
+    line-height: 1.6;
+
+}
+
+aside {
+    background-color: #e7f3ff;
+    padding: 15px;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    margin-top: 20px;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #010101;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #9ea0aa;
+    color: white;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding-inline: 0;
+    }
+
+    aside {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
